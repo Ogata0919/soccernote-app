@@ -1,5 +1,5 @@
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/Users/ogatakazuya/.rbenv/versions/2.6.5/bin/ruby -I /Users/ogatakazuya/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210316-29764-1ghx051.rb extconf.rb
+/Users/ogatakazuya/.rbenv/versions/2.6.5/bin/ruby -I /Users/ogatakazuya/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210316-34467-166aki.rb extconf.rb
 creating Makefile
 
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210316-29764-vn5dua/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210316-34467-r0jqdt/sassc
