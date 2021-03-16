@@ -1,5 +1,5 @@
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
-/Users/ogatakazuya/.rbenv/versions/2.6.5/bin/ruby -I /Users/ogatakazuya/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210316-34467-1dvgblf.rb extconf.rb
+/Users/ogatakazuya/.rbenv/versions/2.6.5/bin/ruby -I /Users/ogatakazuya/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210316-40070-x2hbtk.rb extconf.rb
 checking for -lstdc++... yes
 creating Makefile
 
@@ -35,4 +35,4 @@ linking shared-object unf_ext.bundle
 
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/unf_ext-0.0.7.7/ext/unf_ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20210316-34467-eci2ev
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20210316-40070-xtyvlz

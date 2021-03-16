@@ -1,5 +1,5 @@
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
-/Users/ogatakazuya/.rbenv/versions/2.6.5/bin/ruby -I /Users/ogatakazuya/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210316-34467-8cjxmf.rb extconf.rb
+/Users/ogatakazuya/.rbenv/versions/2.6.5/bin/ruby -I /Users/ogatakazuya/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20210316-40070-clsjdg.rb extconf.rb
 checking for rb_ary_subseq()... yes
 creating Makefile
 
@@ -13,4 +13,4 @@ linking shared-object racc/cparse.bundle
 
 current directory: /Users/ogatakazuya/projects/soccernote-app/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210316-34467-13t5ku4/racc
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210316-40070-1ksbxd2/racc
