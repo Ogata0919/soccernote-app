@@ -1,4 +1,6 @@
 class NotesController < ApplicationController
+  before_action :authenticate_user!, except: [:index]
+
   def index
     @notes = Note.all
   end
@@ -14,18 +16,27 @@ class NotesController < ApplicationController
   def create
     @note = Note.new(note_params)
     @note.user_id = current_user.id
-    @note.save
-    redirect_to note_path(@note)
+    if @note.save
+      redirect_to note_path(@note)
+    else
+      render :new
+    end    
   end
 
   def edit
     @note = Note.find(params[:id])
+    if @note.user != current_user
+      redirect_to notes_path,alert:'不正なアクセスです！！'
+    end  
   end
 
   def update
     @note = Note.find(params[:id])
-    @note.update(note_params)
-    redirect_to note_path(@note)
+    if @note.update(note_params)
+      redirect_to note_path(@note)
+    else
+      render :edit
+    end    
   end 
 
   def destroy
