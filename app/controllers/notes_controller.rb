@@ -17,7 +17,7 @@ class NotesController < ApplicationController
     @note = Note.new(note_params)
     @note.user_id = current_user.id
     if @note.save
-      redirect_to note_path(@note)
+      redirect_to note_path(@note),notice: '投稿に成功しました！！'
     else
       render :new
     end    
@@ -33,7 +33,7 @@ class NotesController < ApplicationController
   def update
     @note = Note.find(params[:id])
     if @note.update(note_params)
-      redirect_to note_path(@note)
+      redirect_to note_path(@note), notice: '更新に成功しました！！'
     else
       render :edit
     end    

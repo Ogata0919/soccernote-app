@@ -6,5 +6,7 @@ class User < ApplicationRecord
 
 
   attachment :profile_image  
-  has_many :notes, dependent: :destroy   
+  has_many :notes, dependent: :destroy  
+  
+  validates :username, presence: true
 end
